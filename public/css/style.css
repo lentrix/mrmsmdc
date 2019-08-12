@@ -1,0 +1,209 @@
+/* Custom styles */
+@font-face {
+    font-family: "cinzel";
+    src: url("../fonts/Cinzel-Regular.ttf");
+}
+
+@font-face {
+    font-family: "champagne";
+    src: url("../fonts/Champagne\ &\ Limousines.ttf");
+}
+
+@font-face {
+    font-family: "london";
+    src: url("../fonts/Old\ London.ttf");
+}
+
+body {
+    background-color: #afdde9;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "cinzel";
+    color: #004455;
+    border-bottom: 1px solid #004455;
+}
+
+.main-wrapper {
+    width: calc(100% - 100px);
+    margin-left: 50px;
+}
+
+.login-wrapper {
+    background-color: #004455;
+    width: 100%;
+    padding: 30px;
+    margin-top: 130px;
+}
+
+.login-wrapper label {
+    color: #d7f4ee;
+}
+
+.login-form .title {
+    float: left;
+    margin-top: -90px;
+    font-size: 3.5em;
+    font-family: "cinzel";
+    color: #004455;
+}
+
+.login-form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.login-form .logo {
+    float: left;
+    height: 500px;
+    margin-top: -150px;
+    margin-left: -270px;
+}
+
+.navbar {
+    margin-top: 45px;
+    height: 45px;
+    background-color: #004455;
+    box-shadow: #004455 1px 2px 4px;
+}
+
+.navbar .nav {
+    float: right;
+    height: 45px;
+}
+
+.navbar .nav a {
+    text-decoration: none;
+    color: #d7f4ee;
+    padding: 0 10px 0 10px;
+    vertical-align: middle;
+    line-height: 45px;
+    display: inline-block;
+}
+
+.navbar .nav a:hover {
+    background-color: #aaeeff;
+    color: #004455;
+}
+
+.navbar .logo {
+    height: 130px;
+    float: left;
+    margin: -40px 10px 0 5px;
+}
+
+.brand {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #d7f4ee;
+    line-height: 50px;
+}
+
+.user-name {
+    float: right;
+    margin-top: -28px;
+    padding-right: 10px;
+    font-family: "champagne";
+    color: #004455;
+    font-size: 1.2em;
+}
+
+.role {
+    text-transform: uppercase;
+}
+
+.candidates-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.candidates-list-block {
+    background-color: #ffeeaa;
+    padding: 20px;
+}
+
+.candidate-list-item {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px;
+    grid-gap: 5px;
+}
+
+.candidate-pic {
+    background-color: #203b42;
+    border: 1px solid #888;
+    margin: 5px 0;
+    position: relative;
+}
+
+.candidate-name {
+    font-family: "cinzel";
+    color: #004455;
+    font-size: 1.2em;
+}
+
+.candidate-team {
+    color: #888;
+    font-family: "champagne";
+}
+
+.candidate-details {
+    padding-top: 10px;
+}
+
+.no-badge {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    background-color: rgb(153, 227, 245);
+    color: #004455;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #203b42;
+    border-radius: 15px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: "champagne";
+}
+
+.score {
+    width: 55px;
+}
+
+.score-view {
+    text-align: center;
+    color: #76998f;
+}
+
+.computed {
+    color: rgb(36, 60, 77);
+    text-align: center;
+}
+
+.summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.summary-table th,
+.summary-table td {
+    border: 1px solid #64789e;
+}
+
+.qualifier {
+    background-color: #f4f8bc;
+}
+
+.vert {
+    width: 30px;
+    /* writing-mode: vertical-rl;
+    text-orientation: mixed;
+    width: 40px;
+    height: 150px;
+    text-align: center; */
+}
